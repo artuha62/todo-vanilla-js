@@ -13,7 +13,7 @@
 
   &.is-disappearing {
     opacity: 0;
-    translate: 0 -75%;
+    transform: translate(-100%);
     transition-duration: calc(var(--transition-duration) * 2);
     pointer-events: none;
 
